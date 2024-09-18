@@ -1,0 +1,304 @@
+html{
+
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+      
+}
+
+.ongle {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    margin-bottom: 30px;
+    background-color: rgb(238, 235, 231);
+    border-bottom: 2px solid black;
+
+
+}
+.ongle h1{
+    
+        font-size: 35px;
+        color: rgb(8, 8, 8);
+        margin-left: 50px;
+    
+}
+.ongle .btnn{
+    
+    background: rgb(243, 184, 6);
+    padding: 8px;
+    border-radius: 2px;
+    color: aliceblue;
+    border: none;
+
+
+}
+.ongle .btnn:hover{
+    
+    background: #000305;
+    padding: 8px;
+    border-radius: 2px;
+    color: aliceblue;
+    transition: all 3s ease;
+    border-radius: 23px 0px 0px 23px;
+ 
+
+}
+.ongle .btnn1{
+    
+    background: rgb(243, 184, 6);
+    padding: 8px;
+    border-radius: 2px;
+    color: aliceblue;
+    border: none;
+    border: none;
+
+
+}
+.ongle .btnn1:hover{
+    
+    background: #000305;
+    padding: 8px;
+    border-radius: 2px;
+    color: aliceblue;
+    transition: all 3s ease;
+    border-radius: 0px 23px 23px 0px;
+ 
+
+}
+span {
+    color: rgb(243, 184, 6);
+}
+.ligne1{
+    
+  margin-left: 180px;
+  position: relative;
+  margin-top: -50px;
+}
+.ligne1 img{
+    transition: all 2s;
+    border-radius: 10px;
+    
+       
+}
+
+.ligne1 img:hover{
+    transform: scale(1.1);
+    transition: all 2s ease;
+    cursor: pointer;
+       
+}
+.parti1{
+ 
+    width: 910px;
+    margin-left: 200px;
+}
+.parti1 h2{
+    margin-left: 350px;
+   margin-right: 300px;
+   
+}
+.gros2 {
+    background: #909794;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+    width: 950px;
+    margin-left: 185px;
+}
+.gros2 img {
+    margin: 30px;
+    margin-top: 30px;
+    
+}
+.gros4 {
+    margin-left: 30px;
+    padding-top: 10px;
+    color: floralwhite;
+}
+
+.yesu {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.gros5 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.gros6 {
+    margin-left: 30px;
+}
+.baspage{
+    width: 950px;
+    margin-left: 185px;
+    background-color: rgb(121, 132, 136);
+    color: rgb(0, 10, 18);
+    border: 1px solid rgb(238, 235, 231);
+    margin-top: 30px;
+
+}
+.baspage h3{
+    margin-left: 300px;
+}
+.baspage .numero{
+    margin-left: 390px;
+}
+.baspage p{
+    margin-left: 190px;
+    display: flex;
+}
+input{
+    margin: 50px 50px;
+    height: 20px;
+    padding: 1px;
+    border: 1px solid rgb(238, 235, 231);
+    width: 300px;
+    margin-left: 15px;
+
+}
+.input{
+    display: flex;
+}
+.input p{
+    margin-top: 52px;
+    margin-left: -48px;
+}
+.input1{
+    display: flex;
+    margin-left: 430px;
+    margin-top: -123px;
+}
+.input1 p{
+    margin-top: 52px;
+    margin-left: -40px;
+}
+.ppp{
+    margin-top: -60px;
+}
+textarea{
+    width: 420px;
+    border: 1px solid rgb(238, 235, 231);
+    margin-left: 15px;
+    margin-top: -40px;
+}
+.message{
+    margin-left: 255px;
+    margin-top: -80px;
+}
+
+.message p .bout {
+    height: 23px;
+    background: rgb(248, 248, 249);
+    border: none;
+    color: #000305;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: -2px;
+    margin-left: 10px;
+    width: 100px;
+}
+.baspage .message p .bout:hover{
+    transform: scale(1.1);
+    transition: all 2s ease;
+}
+
+
+.container{
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    
+}
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: rgb(243, 184, 6);
+    margin: 10px;
+   
+    
+    border-radius: 10px;
+
+
+}
+.container .box .imgbox{
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgbox img{
+    max-width: 100%;
+    transition: transform 2s;
+}
+.container .box:hover .imgbox img{
+    transform: scale(1.2);
+}
+.container .box .details{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+
+}
+.container .box:hover .details{
+    transform: scaleY(1);
+}
+.container .box .details .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+
+}
+.container .box .details .content h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #ff0;
+
+}
+.container .box .details .content p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+section div .button{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+
+}
+.photo2{
+    margin-top: -80px;
+}
+.photo3{
+    margin-top: -80px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    color: rgb(35, 152, 224);
+}
+
+
+
+
+
+
